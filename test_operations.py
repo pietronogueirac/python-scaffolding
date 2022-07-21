@@ -4,7 +4,7 @@ def test_operacoes(x=5):
     
     var1 = operations.potencialidade(x)
     var = operations.raiz_quadrada(var1)
-    assert var1 == var
+    assert x == var
 
 def test_operacoes_2(x,y):
 
